@@ -56,10 +56,10 @@ This way, the liquidity provider is further incentivized to add liquidity, and a
 
 There are a few reasons I like this system even though it's far from perfect:
 
-A) It's an actual incentive.
-B) I don't need to pay for it.
-C) My providers don't need to pay for it either.
-D) It's not orthogonal to the existing incentive structure.
-E) It enhances the existing incentive structure by encouraging the liquidity providers to keep their liquidity in the pool longer.
+- It's an actual incentive.
+- I don't need to pay for it.
+- My providers don't need to pay for it either.
+- It's not orthogonal to the existing incentive structure.
+- It enhances the existing incentive structure by encouraging the liquidity providers to keep their liquidity in the pool longer.
 
 
