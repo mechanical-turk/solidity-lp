@@ -1,0 +1,27 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "_start": "parcel ./src/index.html --no-cache",
+    "_copyArtifacts": "rm -rf ./src/artifacts && cp -R ../artifacts ./src",
+    "start": "npm run _copyArtifacts && npm run _start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "18.0.12",
+    "eslint": "8.17.0",
+    "eslint-plugin-react": "7.30.0",
+    "parcel": "2.6.0",
+    "prettier": "2.6.2"
+  },
+  "dependencies": {
+    "dotenv": "7.0.0",
+    "ethers": "5.6.8",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
+  }
+}
